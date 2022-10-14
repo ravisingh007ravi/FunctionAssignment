@@ -1,10 +1,14 @@
-const url = "https://www.google.com"
+// Problem 1
+// Module1 : src/logger/logger.js containing the following exported function
 
-let printSomething = function() {
-    console.log("Request details are - a, b, c")
+// - welcome() -> prints ‘Welcome to my application. I am <name> and a part of FunctionUp Plutonium cohort.’ on console
+
+
+let welcome = function() {
+    console.log("Welcome to my application. I am Ravi Singh and a part of FunctionUp Lithium cohort")
     return "done"
 }
 
 let abc = 2022
-module.exports.myUrl = url
-module.exports.myFunction = printSomething
+
+module.exports.myFunction = welcome
