@@ -9,6 +9,6 @@ let welcome = function() {
     return "done"
 }
 
-let abc = 2022
+
 
 module.exports.myFunction = welcome

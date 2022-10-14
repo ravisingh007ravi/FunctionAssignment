@@ -29,7 +29,7 @@ router.get('/test-me', function (req, res) {
     //problem 5.
     console.log("Problem 5.\n");
     let myArray = ["Rupam Gupta", "Dev Gupta", "Uttam", "Shriksnt"];
-    let result = underscore.first(myArray);
+    let result = underscore.last(myArray);
     console.log("The result of underscores examples api is : ", result);
     
      res.send('My first ever api!')
